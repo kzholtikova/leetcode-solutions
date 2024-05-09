@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: sync-metrics
+name: Sync Metrics
 
 # Controls when the workflow will run
 on:
@@ -20,6 +20,6 @@ jobs:
         with:
           filename: src/metrics.plugin.leetcode.svg
           token: NOT_NEEDED
-          base: ""
+          base: header, repositories
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent    
