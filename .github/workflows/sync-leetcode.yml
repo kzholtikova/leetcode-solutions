@@ -19,3 +19,7 @@ jobs:
           destination-folder: my-folder
           verbose: true
           commit-header: '[LeetCode Sync]'
+          
+      - name: Debug API Response
+        run: |
+          echo "API Response: ${{ steps.sync.outputs.api-response }}"
